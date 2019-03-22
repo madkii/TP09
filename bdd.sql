@@ -1,4 +1,4 @@
-CREATE DATABASE tp09web;
+CREATE DATABASE IF NOT EXISTS tp09web;
 USE tp09web;
 
 CREATE TABLE IF NOT EXISTS Utilisateur(
@@ -34,10 +34,17 @@ ALTER TABLE ThemeOeuvre
 ADD CONSTRAINT ThemeOeuvre_idOeuvre
 FOREIGN KEY(idOeuvre)
 REFERENCES Oeuvre(idOeuvre) ON DELETE CASCADE;
+
 ALTER TABLE ThemeOeuvre
 ADD CONSTRAINT ThemeOeuvre_idTheme
 FOREIGN KEY(idTheme)
 REFERENCES Theme(idTheme) ON DELETE CASCADE;
 
 INSERT INTO Utilisateur(identifiant, motDePasse, nom, prenom) VALUES
-('Admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'SPLINTER', 'Michelangelo');
+('Admin', 'clemdp', 'FRINGS', 'Gustavo');
+
+INSERT INTO Oeuvre(nom, prix, lien, annee) VALUES
+('La Jaconde', 99.99, 'https://www.amazon.fr/p5dv74Ocs9vG2e1', '2019');
+
+INSERT INTO Theme(libelle) VALUES
+('Portrait');

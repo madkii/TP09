@@ -1,0 +1,11 @@
+.titre
+{
+    text-align: center;
+    background-color:grey;
+    padding: 2% 0%;
+}
+
+.conteneur
+{
+    display:flex;
+}

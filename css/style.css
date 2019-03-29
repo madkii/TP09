@@ -23,9 +23,16 @@
 	height: 1000px;
 }	
 
+.description
+{
+	display:flex;
+	flex-direction:row;
+	background-color: darkred;
+}
+
 .PHOTO
 {
-	
+	width:20px;
 }
 .TITRE
 {

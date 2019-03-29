@@ -3,9 +3,14 @@
 	margin:0px;
 	box-sizing:border-box;
 }
+*{
+
+
+}
 .presentation
 {
     text-align: center;
+	display : flex;
     background-color: gray;
     padding: 3.5% 0%;
 }

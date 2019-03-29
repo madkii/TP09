@@ -47,4 +47,6 @@ INSERT INTO Oeuvre(nom, prix, lien, annee) VALUES
 ('La Jaconde', 99.99, 'https://www.amazon.fr/p5dv74Ocs9vG2e1', '2019');
 
 INSERT INTO Theme(libelle) VALUES
-('Portrait');
+('Portrait'),
+('Aquarelle');
+

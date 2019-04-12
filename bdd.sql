@@ -44,7 +44,8 @@ INSERT INTO Utilisateur(identifiant, motDePasse, nom, prenom) VALUES
 ('Admin', 'clemdp', 'FRINGS', 'Gustavo');
 
 INSERT INTO Oeuvre(nom, prix, lien, annee) VALUES
-('La Jaconde', 99.99, 'https://www.amazon.fr/p5dv74Ocs9vG2e1', '2019');
+('La Jaconde', 99.99, 'https://www.amazon.fr/p5dv74Ocs9vG2e1', '2019'),
+('Le Senpeur', 399.99, 'https://www.amazon.fr/p5dvprgx7vgt98', '1205');
 
 INSERT INTO Theme(libelle) VALUES
 ('Portrait'),

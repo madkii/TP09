@@ -9,145 +9,84 @@
 }
 .presentation
 {
+
     text-align: center;
 	display : flex;
-    background-color: gray;
+    background-color: grey;
     padding: 3.5% 0%;
+	height: 100px;
+	text-align: center;
+}
+
+.page
+{
+	display:flex;
+	justify-content:center;
+
 }
 
 .LECENTRE
 {
-    text-align: center;
-    background-color: green;
-    padding: 20% 0%;
-	margin-right: 15%;
-	margin-left: 15%
+	background-color: green;
+	width: 1000px;
+	height: 1000px;
 }	
+
+.description
+{
+	display:flex;
+	flex-direction:row;
+	background-color: darkred;
+}
 
 .PHOTO
 {
-	text-align: center;
-    background-color: blue;
-    padding: 1% 0%;
-	height: 100px;
-	position: relative;
-	top: -315px; left: 0px;
-	height: 200px;
-	width: 25%;
+	width:20px;
 }
 .TITRE
 {
-	text-align: center;
-    background-color: red;
-    padding: 1% 0%;
-	height: 100px;
-	position: relative;
-	top: -515px; left: 278px;
-	height: 50px; /* hauteur */
-	width: 75%;  /* largeur */
+	
 }
 .TEXTE
 {
-	text-align: center;
-    background-color: white;
-    padding: 1% 0%;
-	position: relative;
-	top: -525px; left: 278px;
-	height: 160px; /* hauteur */
-	width: 75%;  /* largeur */
+	
 }
 .OEUVRES
 {
-	text-align: center;
-    background-color: purple;
-    padding: 1% 0%;
-	height: 100px;
-	position: relative;
-	top: -525px; left: 0px;   /* haut.bas :  gauche.droite */
-	height: 75px; /* hauteur */
-	width: 100%;  /* largeur */
+	
 }
 .FILTRE	
 {
-	text-align: center;
-    background-color: yellow;
-    padding: 1% %;
-	height: 100px;
-	position: relative;
-	top: -525px; left: 0px;   /* haut.bas :  gauche.droite */
-	height: 500px; /* hauteur */
-	width: 20%;  /* largeur */
+	
 }
 
 .CARRE1
 {
-	text-align: center;
-    background-color: black;
-    padding: 1% %;
-	height: 100px;
-	position: relative;
-	top: -1000px; left: 250px;   /* haut.bas :  gauche.droite */
-	height: 200px; /* hauteur */
-	width: 20%;  /* largeur */
+	
 }
 .CARRE2
 {
-	text-align: center;
-    background-color: black;
-    padding: 1% %;
-	height: 100px;
-	position: relative;
-	top: -1200px; left: 550px;   /* haut.bas :  gauche.droite */
-	height: 200px; /* hauteur */
-	width: 20%;  /* largeur */	
+	
 }
 .CARRE3
 {
-	text-align: center;
-    background-color: black;
-    padding: 1% %;
-	height: 100px;
-	position: relative;
-	top: -1400px; left: 850px;   /* haut.bas :  gauche.droite */
-	height: 200px; /* hauteur */
-	width: 20%;  /* largeur */		
+		
 }
 .CARRE4
 {
-text-align: center;
-    background-color: black;
-    padding: 1% %;
-	height: 100px;
-	position: relative;
-	top: -1350px; left: 250px;   /* haut.bas :  gauche.droite */
-	height: 200px; /* hauteur */
-	width: 20%;  /* largeur */
+
 }
 .CARRE5
 {
-	text-align: center;
-    background-color: black;
-    padding: 1% %;
-	height: 100px;
-	position: relative;
-	top: -1550px; left: 550px;   /* haut.bas :  gauche.droite */
-	height: 200px; /* hauteur */
-	width: 20%;  /* largeur */	
+		
 }
 .CARRE6
 {
-	text-align: center;
-    background-color: black;
-    padding: 1% %;
-	height: 100px;
-	position: relative;
-	top: -1750px; left: 850px;   /* haut.bas :  gauche.droite */
-	height: 200px; /* hauteur */
-	width: 20%;  /* largeur */	
+		
 }
 
 
 .conteneur
 {
-    display:flex;
+    
 }

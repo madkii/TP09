@@ -34,17 +34,25 @@
 
 .description
 {
-	display:flex;
-	flex-direction:row;
-	background-color: darkred;
+	
+	
+	
 }
 
 .PHOTO
 {
-	width:20px;
+	display:flex;
+	flex-direction:row;
+	background-color: darkred;
+	width: 150px;
+	height: 150px;
 }
 .TITRE
 {
+	display:flex;
+	background-color: blue;
+	width: 100%; /*largeur*/
+	height: 20%; /*hauteur*/
 	
 }
 .TEXTE
@@ -86,9 +94,13 @@
 }
 
 
-.conteneur
+.contenair
 {
-    
+	display: flex
+    flex-direction:row;
+	background-color: Yellow;
+	width: 100%; /*largeur*/
+	height: 400px; /*hauteur*/
 }
 
 
